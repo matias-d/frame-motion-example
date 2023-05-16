@@ -22,7 +22,7 @@ function App() {
       initial={{ opacity: 0 }} 
       animate={{ opacity: 1 }} 
       transition={{ duration: 0.3 }}
-      onMouseEnter={toggleHover} onMouseLeave={toggleHover} src={currentImage} alt='women image' className="h-full w-full object-cover grayscale"/>
+      onMouseEnter={toggleHover} onMouseLeave={toggleHover} src={currentImage} alt='women image in grayscale' className="h-full w-full object-cover grayscale"/>
       <motion.span
        initial={{ scale: 0 }} 
       animate={{ scale: 1 }} 
